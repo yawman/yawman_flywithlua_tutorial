@@ -38,6 +38,7 @@ function multipress_buttons()
         set_button_assignment(POV_RIGHT, "sim/autopilot/heading_up")
         set_button_assignment(POV_UP, "sim/flight_controls/flaps_up")
         set_button_assignment(POV_DOWN, "sim/flight_controls/flaps_down")
+        
     else -- no bumpers pressed 
         set_button_assignment(POV_LEFT, "sim/general/hat_switch_left")
         set_button_assignment(POV_RIGHT, "sim/general/hat_switch_right")
